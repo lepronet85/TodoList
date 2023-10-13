@@ -1,0 +1,51 @@
+.title {
+  background-color: #619da1;
+}
+
+#category:focus,
+#title:focus,
+#description:focus,
+#statut:focus {
+  outline-color: #619da1;
+}
+
+h1 {
+  color: #619da1;
+}
+
+#add-task {
+  background-color: #619da1;
+}
+
+table thead th {
+  background-color: #619da1;
+}
+
+#view {
+  background-color: #7acbf7;
+}
+
+#edit {
+  background-color: #07fec9;
+}
+
+#delete {
+  background-color: #f7414c;
+}
+
+@keyframes animatedLabel {
+  from {
+    background-color: #619da1;
+    top: 10px;
+    z-index: 10;
+    color: #fff;
+    font-size: 14px;
+  }
+  to {
+    background-color: #619da1;
+    top: -10px;
+    z-index: 10;
+    color: #fff;
+    font-size: 13px;
+  }
+}
